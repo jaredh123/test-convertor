@@ -8,7 +8,39 @@ $(document).ready(function() {
     var choice2 = $("#unit2").val();
 
     var convert = function(input) {
-      if ((choice1 == 1) && (choice2 == 1)) {
+      if ((choice1 == 0) && (choice2 == 1)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 2)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 3)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 4)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 5)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 6)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 7)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 8)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 9)) {
+        return "Please choose two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 0)) {
+        return "Please choose two units";
+      }
+      
+      
+      else if ((choice1 == 1) && (choice2 == 1)) {
         return input;
       }
       else if ((choice1 == 1) && (choice2 == 2)) {
@@ -266,38 +298,6 @@ $(document).ready(function() {
       }
       else if ((choice1 == 9) && (choice2 == 9)) {
         return input;
-      }
-
-
-      else if ((choice1 == 11) && (choice2 == 1)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 2)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 3)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 4)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 5)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 6)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 7)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 8)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 9)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 11) && (choice2 == 11)) {
-        return "Please choose two units";
       }
 
       else {
