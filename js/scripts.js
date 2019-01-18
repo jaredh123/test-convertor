@@ -8,40 +8,40 @@ $(document).ready(function() {
     var choice2 = $("#unit2").val();
 
     var convert = function(input) {
-      if ((choice1 == 0) && (choice2 == 1)) {
-        return "Please choose two units";
+      if ((choice1 == 0) && (choice2 == 0)) {
+        return "Please select two units";
+      }
+      else if ((choice1 == 0) && (choice2 == 1)) {
+        return "Please select two units";
       }
       else if ((choice1 == 0) && (choice2 == 2)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 0) && (choice2 == 3)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 0) && (choice2 == 4)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 0) && (choice2 == 5)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 0) && (choice2 == 6)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 0) && (choice2 == 7)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 0) && (choice2 == 8)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 0) && (choice2 == 9)) {
-        return "Please choose two units";
-      }
-      else if ((choice1 == 0) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
 
 
       else if ((choice1 == 1) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 1) && (choice2 == 1)) {
         return input;
@@ -73,7 +73,7 @@ $(document).ready(function() {
 
 
       else if ((choice1 == 2) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 2) && (choice2 == 1)) {
         return input / 4;
@@ -105,7 +105,7 @@ $(document).ready(function() {
 
 
       else if ((choice1 == 3) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 3) && (choice2 == 1)) {
         return input / 8;
@@ -137,7 +137,7 @@ $(document).ready(function() {
 
 
       else if ((choice1 == 4) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 4) && (choice2 == 1)) {
         return input / 16;
@@ -169,7 +169,7 @@ $(document).ready(function() {
 
 
       else if ((choice1 == 5) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 5) && (choice2 == 1)) {
         return input / 128;
@@ -201,7 +201,7 @@ $(document).ready(function() {
 
 
       else if ((choice1 == 6) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 6) && (choice2 == 1)) {
         return input / 256;
@@ -233,7 +233,7 @@ $(document).ready(function() {
 
 
       else if ((choice1 == 7) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 7) && (choice2 == 1)) {
         return input / 768;
@@ -265,7 +265,7 @@ $(document).ready(function() {
 
 
       else if ((choice1 == 8) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 8) && (choice2 == 1)) {
         return input / 3840;
@@ -297,7 +297,7 @@ $(document).ready(function() {
 
 
       else if ((choice1 == 9) && (choice2 == 0)) {
-        return "Please choose two units";
+        return "Please select two units";
       }
       else if ((choice1 == 9) && (choice2 == 1)) {
         return input / 3840;
