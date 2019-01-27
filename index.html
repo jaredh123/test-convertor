@@ -14,7 +14,7 @@
       <form id="run">
 
         <h4 id="initial">Enter initial value:</h4>
-        <input id="input" type="text">
+        <input id="input" type="number">
 
         <h4>Initial units:</h4>
           <select class="form-control" id="unit1">
@@ -23,12 +23,13 @@
             <option value="2">Quarts</option>
             <option value="3">Pint</option>
             <option value="4">Cup</option>
-            <option value="5">Ounces</option>
+            <option value="5">fl. Ounces</option>
             <option value="6">Tablespoons</option>
             <option value="7">Teaspoons</option>
             <option value="8">Liters</option>
             <option value="9">Millilters</option>
-            <option value="10">Please don't click me</option>
+<!-- Screaming -->
+            <option value="10">Don't choose me</option>
           </select>
 
         <h4>Units to convert to:</h4>
@@ -43,10 +44,15 @@
             <option value="7">Teaspoons</option>
             <option value="8">Liters</option>
             <option value="9">Millilters</option>
-            <option value="10">Please don't click me</option>
+<!-- Screaming -->
+            <option value="10">Don't choose me</option>
           </select>
 
         <button type="submit" class="btn btn-success">Convert</button>
+        <span id="results"></span>
+      </form>
+      <form id="pain">
+        <button id="scream" type="submit" class="btn-info"></button>
       </form>
     </div>
   </body>

@@ -1,14 +1,18 @@
+body {
+  background-color: gray;
+}
+
 h1 {
   text-align:center;
   width: 350px;
   margin-bottom: 50px;
 }
 
-.well {
-  background-color: beige;
+input {
+  margin-bottom: 20px;
 }
 
-input {
+select {
   margin-bottom: 20px;
 }
 
@@ -20,10 +24,14 @@ input {
   width: 170px;
 }
 
-select {
-  margin-bottom: 20px;
+#results {
+  padding: 5px;
 }
 
-body {
-  background-color: gray;
+.well {
+  background-color: beige;
+}
+
+.lightgray-background {
+  background-color: lightgray;
 }
