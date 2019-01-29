@@ -376,6 +376,9 @@ $(document).ready(function() {
     else if ((choice1 == 10) || (choice2 == 10)) {
       alert(convert());
     }
+    else if (!input) {
+      alert("Please enter a number. I lack joy.");
+    }
     else if ((0 < choice1 && choice1 < 10) || (0 < choice2 && choice2 < 10) && 0 <= input <= 0) {
       $("#results").removeClass();
       $("#results").addClass("lightgray-background");
@@ -426,7 +429,6 @@ $(document).ready(function() {
       $("button#scream").addClass("btn-success");
       c = c - 2
     }
-
 
     c = c + 1;
   });
