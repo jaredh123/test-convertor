@@ -16,7 +16,7 @@ This unit converter is a test of if statements. The current state allows convers
 
 ## Known Bugs
 
-Issues with values of NaN.
+No known issues.
 
 ## Support and contact details
 
